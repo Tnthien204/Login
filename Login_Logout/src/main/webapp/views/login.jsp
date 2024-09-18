@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="Login_Logout/login" method="post">
+	<form action="${pageContext.request.contextPath}/login" method="post">
 		<c:if test="${alert !=null}">
 			<h3 class="alert alert danger">${alert}</h3>
 		</c:if>
