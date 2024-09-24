@@ -13,4 +13,7 @@ public interface IUserService {
 	boolean checkExistEmail(String email);
 	boolean checkExistUsername(String username);
 	boolean checkExistPhone(String phone);
+	void update(String pw, String email);
+	void updateacc(int id, String images, String fullname, String phone);
+	UserModel FindById(int id);
 }

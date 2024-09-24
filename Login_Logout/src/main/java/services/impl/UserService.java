@@ -58,7 +58,19 @@ public class UserService implements IUserService {
 	public boolean checkExistPhone(String phone) {
 		return userDao.checkExistPhone(phone);
 	}
+	@Override
+	public void update(String pw, String email) {
+		userDao.update(pw, email);
+		
+	}
 
-
-
+	@Override
+	public void updateacc(int id, String images, String fullname, String phone) {
+		userDao.updateacc(id, images, fullname, phone);
+	}
+	
+	@Override
+	public UserModel FindById(int id) {
+		return userDao.findById(id);
+	}
 }
