@@ -1,7 +1,6 @@
 package dao;
 
 import java.util.List;
-
 import models.UserModel;
 
 public interface IUserDao {
@@ -18,4 +17,6 @@ public interface IUserDao {
 	boolean checkExistEmail(String email);
 	boolean checkExistUsername(String username);
 	boolean checkExistPhone(String phone);
+	void update(String pw, String email);
+	void updateacc(int id, String images, String fullname, String phone);
 }
