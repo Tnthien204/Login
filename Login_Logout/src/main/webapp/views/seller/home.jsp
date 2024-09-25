@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	trang chu cua seller
+	<form action="/Login_Logout/user/home" method="post">
+		<div class="container">
+			<button type="logout">Logout</button>
+		</div>
+	</form>
 </body>
 </html>

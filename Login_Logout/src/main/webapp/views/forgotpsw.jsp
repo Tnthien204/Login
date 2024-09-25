@@ -11,7 +11,7 @@
 						<h3 class="alert alert danger">${alert}</h3>
 					</c:if>
 					<div class="col-md-7 col-sm-7">
-						<form action="/lab02/forgotpsw" method="post"
+						<form action="/Login_Logout/forgotpsw" method="post"
 							class="form-horizontal form-without-legend" role="form">
 							<div class="form-group">
 								<label for="email" class="col-lg-4 control-label">Email</label>
