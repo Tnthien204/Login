@@ -73,10 +73,4 @@
           </div>
           <!-- END CONTENT -->
 </div>
-</div>
-
-
-
-
-
-	
+</div>	

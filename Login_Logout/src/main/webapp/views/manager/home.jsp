@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -7,6 +8,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	trang chủ của manager
+	trang chu cua manager
+	<form action="/Login_Logout/user/home" method="post">
+		<div class="container">
+			<button type="logout">Logout</button>
+		</div>
+	</form>
 </body>
 </html>
